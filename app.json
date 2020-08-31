@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "news",
-    "slug": "news",
+    "name": "News",
+    "slug": "News",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/news.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/news.png",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -20,7 +19,10 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/news.png"
+    },
+    "android": {
+      "package": "com.battulga.news"
     }
   }
 }
